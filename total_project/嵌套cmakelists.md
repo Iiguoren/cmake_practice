@@ -30,6 +30,7 @@ target_link_libraries(Animal PUBLIC AnimalLib)
 target_include_directories(Animal PUBLIC  "${PROJECT_SOURCE_DIR}/animal/include")
 ```
 **注**：
+* 子目录的cmakelists里面的directory不能传递给主目录，但主目录的可以传递给子目录，因此主目录需要再次使用`target_include_directories`包含include头文件。
 * 目标定义先于库链接：add_executable 必须在 target_link_libraries 之前。CMake 必须先知道要创建哪个目标（可执行文件或库），然后才能为该目标指定链接的库。如果你在 CMakeLists.txt 文件中先调用 target_link_libraries，但此时 CMake 还不知道目标 Animal 的存在，它将会报错。
 * 链接依赖：在 add_executable 之后调用 target_link_libraries，CMake 才能明确这个可执行文件需要链接哪些库。这样，链接器在链接阶段才能正确地找到并链接所需的库文件。
 ### 使用库文件有以下优点：
