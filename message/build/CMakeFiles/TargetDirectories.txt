@@ -1,0 +1,3 @@
+D:/vscode project/CMAKE/message/build/CMakeFiles/hello.dir
+D:/vscode project/CMAKE/message/build/CMakeFiles/edit_cache.dir
+D:/vscode project/CMAKE/message/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+D:/vscode project/CMAKE/animal_2/build/CMakeFiles/AnimalLib.dir
+D:/vscode project/CMAKE/animal_2/build/CMakeFiles/Animal.dir
+D:/vscode project/CMAKE/animal_2/build/CMakeFiles/edit_cache.dir
+D:/vscode project/CMAKE/animal_2/build/CMakeFiles/rebuild_cache.dir

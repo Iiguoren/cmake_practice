@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.20)
+project(animal CXX)
+file(GLOB SRC ${PROJECT_SOURCE_DIR}/src/*.cpp)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/so)
+add_library(AnimalLib SHARED ${SRC})
+add_executable(Animal main.cpp)
+target_link_libraries(Animal PUBLIC AnimalLib)

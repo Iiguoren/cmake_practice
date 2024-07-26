@@ -1,0 +1,3 @@
+D:\cmake\bin\cmake.exe -E rm -f CMakeFiles\AnimalLib.dir/objects.a
+C:\PROGRA~1\mingw64\bin\ar.exe qc CMakeFiles\AnimalLib.dir/objects.a @CMakeFiles\AnimalLib.dir\objects1.rsp
+C:\PROGRA~1\mingw64\bin\C__~1.EXE -shared -o "D:\vscode project\CMAKE\animal_2\so\libAnimalLib.dll" -Wl,--out-implib,"D:\vscode project\CMAKE\animal_2\so\libAnimalLib.dll.a" -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\AnimalLib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\AnimalLib.dir\linkLibs.rsp
