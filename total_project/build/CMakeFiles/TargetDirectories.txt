@@ -1,0 +1,6 @@
+D:/c project/cmake_practice/total_project/build/CMakeFiles/Animal.dir
+D:/c project/cmake_practice/total_project/build/CMakeFiles/edit_cache.dir
+D:/c project/cmake_practice/total_project/build/CMakeFiles/rebuild_cache.dir
+D:/c project/cmake_practice/total_project/build/animal/CMakeFiles/AnimalLib.dir
+D:/c project/cmake_practice/total_project/build/animal/CMakeFiles/edit_cache.dir
+D:/c project/cmake_practice/total_project/build/animal/CMakeFiles/rebuild_cache.dir
