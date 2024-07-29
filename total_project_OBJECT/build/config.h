@@ -1,0 +1,1 @@
+#define CMAKECHAR "hello world"
